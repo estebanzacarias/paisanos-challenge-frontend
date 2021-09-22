@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Rock+Salt&display=swap");
+
+.card-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.card-author {
+  font-family: "Rock Salt", cursive !important;
+  font-size: 22px;
+}
+.card-text {
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+}
+.card {
+  background-color: #fac952;
+  border: none;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+@media (max-width: 1000px) {
+  .card-author {
+    font-size: 14px;
+  }
+  .card-text {
+    font-size: 22px !important;
+  }
+  .card-align{
+    text-align: left !important;
+  }
+}
